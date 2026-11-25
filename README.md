@@ -74,8 +74,14 @@ Les versions réelles installées et exécutées dans l'environnement du projet 
 codeSource_correctionProsit/
 │
 ├── README.md                               # Documentation technique complète du projet
+├── Gateway/                                # API Gateway Spring Cloud (Prosit 3)
+│   ├── pom.xml
+│   ├── mvnw.cmd / mvnw
+│   └── src/main/java/com/example/gateway/
 │
 ├── documentation/
+│   ├── Prosit2/                            # Rapport et livrables TP 2 (Observabilité Actuator)
+│   ├── Prosit3/                            # Rapport complet et livrables Prosit 3 (API Gateway & Load Balancing)
 │   └── screenshots/                        # Emplacement prévu pour les captures d'écran
 │
 └── codeSource_correctionProsit/
@@ -86,6 +92,10 @@ codeSource_correctionProsit/
     │           │   ├── pom.xml
     │           │   ├── mvnw.cmd / mvnw
     │           │   └── src/main/java/com/awd/eureka/EurekaApplication.java
+    │           │
+    │           ├── gateway/                # API Gateway (Spring Cloud Gateway + Eureka)
+    │           │   ├── pom.xml
+    │           │   └── src/main/java/com/example/gateway/
     │           │
     │           ├── candidat/               # Microservice Candidat & Adresse (Spring Boot + H2)
     │           │   ├── pom.xml
